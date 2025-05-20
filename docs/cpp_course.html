@@ -1,24 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++ kurss</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="row justify-content-md-center">
-        <div class="col bg-danger bg-gradient text-light">
-            <h1 class="text-center my-5 fw-semibold">C++ kurss</h1>
-        </div>
-    </div>
 
-    <main class="container mt-5">
-        <article>
-            <p>TODO: apraksts C++ kursam</p>
-            <p>Te varētu ielikt <a href="https://developers.google.com/search/docs/appearance/structured-data/course">course</a> schema.org elementu</p>
-        </article>
-        <a href="index.html">Atpakaļ uz sākumu</a>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kodiņš | C++ programmēšanas kurss</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="row justify-content-md-center">
+    <div class="col bg-danger bg-gradient text-light">
+      <h1 class="text-center my-5 fw-semibold">C++ kurss</h1>
+    </div>
+  </div>
+
+  <header>
+    <nav>
+      <h2>kodiņš</h2>
+      <ul>
+        <li><a href="index.html">Atpakaļ uz sākumu</a></li>
+        <li><a href="about_us.html">Par mums</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mt-5">
+    <article>
+      <section class="course-overview">
+        <h2>Kļūsti par C++ izstrādātāju 6 mēnešos</h2>
+        <p>Intensīvs kurss, kas sagatavos tevi darbam spēļu studijās, embedded sistēmu uzņēmumos un augstas veiktspējas
+          programmatūras izstrādē.</p>
+
+        <div class="info">
+          <ul>
+            <li><strong>Kursa ilgums:</strong> 24 nedēļas (96 akadēmiskās stundas)</li>
+            <li><strong>Klase:</strong> 2 reizes nedēļā (vakariem 18:00-21:00)</li>
+            <li><strong>Grupas lielums:</strong> Maksimums 10 dalībnieki</li>
+            <li><strong>Cena:</strong> <span class="price">1200€</span> (vai 4 maksājumi pa 300)</li>
+          </ul>
+          <a href="#pieteikties" class="cta">Rezervēt vietu</a>
+        </div>
+      </section>
+
+      <section class="course-content">
+        <h2>Kursa Programma</h2>
+        <div class="modules">
+          <h3>1. C++ Pamati un Atmiņas Pārvaldība</h3>
+          <ul>
+            <li>Pointeri un references</li>
+            <li>Stack vs heap atmiņa</li>
+            <li>RAII un smart pointeri</li>
+            <li>STL konteineri un algoritmi</li>
+          </ul>
+
+          <h3>2. Objektorientēta Programmēšana C++</h3>
+          <ul>
+            <li>Klases un inheritance</li>
+            <li>Polimorfisms un virtual funkcijas</li>
+            <li>Move semantika</li>
+            <li>Design patterns (Factory, Observer)</li>
+          </ul>
+
+          <h3>3. Daudzpavedienu Programmēšana</h3>
+          <ul>
+            <li>Thread un mutex</li>
+            <li>Race conditions un deadlocks</li>
+            <li>Async programmēšana</li>
+            <li>Lock-free algoritmi</li>
+          </ul>
+
+          <h3>4. Spēļu Izstrāde ar Unreal Engine</h3>
+          <ul>
+            <li>C++ un Blueprint integrācija</li>
+            <li>Game loop un fizika</li>
+            <li>AI pamati</li>
+            <li>Optimizācijas paņēmieni</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <h2>Kas Ietverta Kursā?</h2>
+        <ul>
+          <li><strong>3 pilnvērtīgi projekti</strong> portfolio (spēle, multithread aplikācija, sistēmu programmatūra)
+          </li>
+          <li><strong>Mentoru sesijas</strong> ar nozares ekspertiem</li>
+          <li><strong>Git versiju kontroles sistēma</strong> no pirmās nodarbības</li>
+          <li><strong>Karjeras diena</strong> ar vadošajiem Latvijas tech uzņēmumiem</li>
+          <li><strong>Mācību materiāli</strong> un kodu piemēri pēc kursa</li>
+        </ul>
+      </section>
+
+      <section class="instructor">
+        <h2>Kursa Lektors</h2>
+        <div class="teacher">
+          <img src="https://images.pexels.com/photos/2036656/pexels-photo-2036656.jpeg"
+            alt="Reinis Ričards Ramis - C++ prgrammēšānas pasniedzējs" style="width: 30%; height: 30%;">
+
+          <h3>Reinis Ričards Ramis</h3>
+          <p class="role">Senior C++ developer</p>
+          <p>Vairāk nekā 12 gadu pieredze C++ programmēšanā. Bijušais Google darbinieks. Strādāja lielajos ASV
+            uzņēmumos.</p>
+          <ul class="Skills">
+            <li>C++</li>
+            <li>Object Oriented Programming</li>
+            <li>Game Development/GameDev</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="review">
+        <h2>Absolventu Vērtējumi</h2>
+        <blockquote>
+          <p>"kodiņš C++ kurss bija tieši tas, kas man vajadzēja, lai pārietu no Java uz spēļu izstrādi. Jau 3 mēnešus
+            pēc kursa beigām sāku strādāt kā Junior Gameplay Programmer."</p>
+          <footer>- Andris, Spēļu Programmētājs @ Baltic Games Studio</footer>
+        </blockquote>
+
+        <blockquote>
+          <p>"Lektora praktiskā pieredze un reāli projekti deva ieskatu, ko patiesībā nozīmē strādāt ar C++ profesionālā
+            vidē. Tagad strādāju embedded sistēmu uzņēmumā."</p>
+          <footer>- Laura, Embedded Systems Developer</footer>
+        </blockquote>
+      </section>
+
+      <section id="pieteikties" class="enrollment">
+        <h2>Pieteikšanās Kursam</h2>
+        <form>
+          <label for="vards">Vārds*</label>
+          <input type="text" id="vards" required>
+
+          <label for="epasts">E-pasts*</label>
+          <input type="email" id="epasts" required>
+
+          <label for="talrunis">Telefons*</label>
+          <input type="tel" id="talrunis" required>
+
+          <label for="pieredze">Programmēšanas pieredze</label>
+          <select id="pieredze">
+            <option value="0">Nav pieredzes</option>
+            <option value="1">Citas valodas (Java, Python, etc.)</option>
+            <option value="2">C++ pamatlīmenis</option>
+          </select>
+
+          <label>
+            <input type="checkbox" required>
+            Piekrītu <a href="/privātuma-politika">privātuma politikai</a>
+          </label>
+
+          <button type="submit">Nosūtīt pieteikumu</button>
+        </form>
+        <p class="small-note">Nākamā kursa sākums: 2025. gada 20. jūlijs</p>
+      </section>
+
+      <p>Te varētu ielikt <a
+          href="https://developers.google.com/search/docs/appearance/structured-data/course">course</a> schema.org
+        elementu</p>
+    </article>
+    <a href="index.html">Atpakaļ uz sākumu</a>
+  </main>
+
+  <footer>
+    <div class="footer-content" style="background-color: crimson; color: white; padding: 25px;">
+      <div class="contact-info">
+        <h3>Kodiņš</h3>
+        <address>
+          <p>Raiņā Bulvāris 13, Rīga</p>
+          <p>+371 22222222</p>
+          <p>info@kodins.lv</p>
+        </address>
+      </div>
+      <div class="social-links">
+        <a href="#" style="color: white;">Facebook</a>
+        <a href="#" style="color: white;">LinkedIn</a>
+        <a href="#" style="color: white;"> Instagram</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Kodins. Visas tiesības aizsargātas.</p>
+  </footer>
+</body>
+
 </html>

@@ -1,30 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programmēšanas kursi</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="row justify-content-md-center">
-        <div class="col bg-danger bg-gradient text-light">
-            <h1 class="text-center my-5 fw-semibold">Mēs piedāvājam programmēšanas kursus</h1>
-        </div>
-    </div>
 
-    <main class="container mt-5">
-        <article>
-            <p>Mūsu neeksistējošā programmēšanas skola piedāvā jums sekojošus kursus latviešu valodā:</p>
-            <ul>
-                <li><a href="cpp_course.html">C++ kurss</a> - iemācīsim programmēt C++ programmēšanas valodā tikai 9 mēnešu laikā.</li>
-                <li><a href="python_course.html">Python kurss</a> - iemācīsim programmēt Python programmēšanas valodā tikai 12 mēnešu laikā.</li>
-                <li><a href="testing_course.html">Testēšanas kurss</a> - iemācīsim testēt savas programmas tikai 2 dienu laikā.</li>
-            </ul>
-            <p>Ir arī vēl piektā lapa - <a href="about_us.html">Par Mums</a>.</p>
-            <p>Btw šitajā lapā probably būs <a href="https://developers.google.com/search/docs/appearance/structured-data/article">article</a> schema.org elements</p>
-            <p>Vai arī maybe <a href="https://developers.google.com/search/docs/appearance/structured-data/carousel">šis</a></p>
-        </article>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Daži metadatu tagi
+    <meta name="description" content="Profesionāla kodēšanas skola Rīgā. Mācām C++, Python, testēšanu un citas programmēšanas tehnoloģijas. Kvalificēti lektori, moderna praktiska pieeja pēc Eiropas standartiem.">
+    <meta name="keywords" content="kodēšana, kodēšanas skola, programmēšana, programmēšanas kursi, C++, Python, testēšana, Rīga, digitālās prasmes, IT mācības, Eiropa, Latvija"> -->
+  <title> Kodiņš | Programmēšanas kursi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="row justify-content-md-center">
+    <div class="col bg-danger bg-gradient text-light">
+      <h1 class="text-center my-5 fw-semibold">Mēs piedāvājam programmēšanas kursus</h1>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Kodiņš</h1>
+        <p>Labākais veids kā apgūt programmēšanu!</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#kursi">Kursi</a></li>
+          <li><a href="#lektori">Mūsu lektori</a></li>
+          <li><a href="#par-mums">Par mums</a></li>
+          <li><a href="#kontakti">Kontakti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <section class="hero">
+      <div class="container">
+        <h2>Kļūsti par profesionālu programmētāju pēc Eiropas standartiem!</h2>
+        <p>Mūsu intensīvie testēšanas, Python un C++ programmēšanas kursi sagatavos tevi darbam IT nozarē jau pēc 6
+          mēnešiem. Praktiski uzdevumi, reāli projekti un atbalsts no Latvijas industrijas ekspertiem.</p>
+        <a href="#pieteikties" class="cta-button">Pieteikties kursiem</a>
+      </div>
+    </section>
+
+    <section id="kursi" class="courses">
+      <article>
+        <p>Mūsu neeksistējošā programmēšanas skola piedāvā jums sekojošus kursus latviešu valodā:</p>
+
+        <div class="course-list">
+
+          <article class="course">
+            <h3><a href="cpp_course.html">C++ kurss</a></h3>
+            <p>- iemācīsim programmēt C++ programmēšanas valodā tikai 9 mēnešu laikā.</p>
+          </article>
+
+          <article class="course">
+            <h3><a href="python_course.html">Python kurss</a></h3>
+            <p>- iemācīsim programmēt Python programmēšanas valodā tikai 12 mēnešu laikā.</p>
+          </article>
+
+          <article>
+            <h3><a href="testing_course.html">Testēšanas kurss</a></h3>
+            <p>- iemācīsim testēt savas programmas tikai 2 dienu laikā.</p>
+          </article>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="review">
+      <h2>Vairāk nekā 300 apmācīti speciālisti</h2>
+      <blockquote>
+        <p>"Pēc Kodiņš C++ kursa sāku strādāt kā Junior Developer ar 1600€ algu. Lektori sniedza nepieciešamo
+          gan tehnisko, gan karjeras konsultāciju."</p>
+        <footer>- Mārtiņš, Back-end Developer</footer>
+      </blockquote>
+    </section>
+
+    <section id="registracija" class="register">
+      <h2>Pierakstīties uz kursiem</h2>
+      <form>
+        <label for="name">Vārds:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">E-pasts:</label>
+        <input type="email" id="email" required>
+
+        <label for="course">Interesējošais kurss:</label>
+        <select id="course">
+          <option value="frontend">C++</option>
+          <option value="python">Python</option>
+          <option value="fullstack">Testēšana</option>
+        </select>
+        <button type="submit">Nosūtīt pieteikumu</button>
+      </form>
+    </section>
+
+    <section id="komanda" class="team">
+      <h2>Mēs un Mūsu ekspertu komanda</h2>
+      <p>Iepazīstieties ar mūsu foršo komandu un pasniedzējiem, kas palīdzēs jums apgūt nepieciešamas industrijas
+        prasmes.</p>
+      <p>Lapa uz pasniedzējiem - <a href="about_us.html">Par Mums</a>.</p>
+    </section>
+
+    <section id="uarticle" class="uarticle">
+      <p>Btw šitajā lapā probably būs <a
+          href="https://developers.google.com/search/docs/appearance/structured-data/article">article</a> schema.org
+        elements</p>
+    </section>
+
+    <section id="kautkas" class="kautkas">
+      <p>Vai arī maybe <a href="https://developers.google.com/search/docs/appearance/structured-data/carousel">šis</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content" style="background-color: crimson; color: white; padding: 25px;">
+      <div class="contact-info">
+        <h3>Kodiņš</h3>
+        <address>
+          <p>Raiņā Bulvāris 13, Rīga</p>
+          <p>+371 22222222</p>
+          <p>info@kodins.lv</p>
+        </address>
+      </div>
+      <div class="social-links">
+        <a href="#" style="color: white;">Facebook</a>
+        <a href="#" style="color: white;">LinkedIn</a>
+        <a href="#" style="color: white;"> Instagram</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Kodins. Visas tiesības aizsargātas.</p>
+  </footer>
+</body>
+
 </html>
