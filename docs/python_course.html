@@ -1,173 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kodiņš | Python programmēšanas kurss</title>
-  <!-- Daži metadatu tagi
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodiņš | Python programmēšanas kurss</title>
+    <!-- Daži metadatu tagi
   <meta name="description" content="Izmantojamais Python programmēšanas kurss Rīgā. No nulles līdz profesionālam līmenim. Mācīsim datu analīzi, automatizāciju un web izstrādi.">
   <meta name="keywords" content="python kursi, programmēšana Rīgā, python latvijā, datu analīze, Django, mašīnmācīšanās, python cena, kodēšanas skola"> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
-
-<body>
-  <div class="row justify-content-md-center">
-    <div class="col bg-danger bg-gradient text-light">
-      <h1 class="text-center my-5 fw-semibold">Python programmēšanas kurss</h1>
-    </div>
-  </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
 
   <header>
-    <nav>
-      <h2>Kodiņš</h2>
-      <ul>
-        <li><a href="index.html">Atpakaļ uz sākumu</a></li>
-        <li><a href="about_us.html">Par mums</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="index.html">Kodiņš</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="index.html#kursi">Kursi</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link fs-5" href="lectors.html">Mūsu lektori</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link fs-5" href="about_us.html">Par mums</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link fs-5" href="news.html">Jaunumi</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link fs-5" href="contacts.html">Kontakti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
-  <main class="container mt-5">
-    <article>
-      <section class="course-overview">
-        <h2>No iesācēja līdz Python izstrādātājam 5 mēnešos</h2>
-        <p>Praktisks kurss, kas sagatavos tevi darbam kā Python izstrādātājs Latvijas un starptautiskajos tirgos.
-          Iespējama prakse Baltijas lielākajā IT kompānijā - Accenture.</p>
+  <body>
+    <div class="container my-5">
+      <div
+        class="bg-danger bg-gradient text-light rounded-4 shadow p-5 text-center"
+      >
+        <h1 class="fw-semibold mb-0">Python programmēšanas kurss</h1>
+      </div>
+    </div>
+    <main class="container mt-5">
+      <article>
+        <section class="course-overview container my-5">
+          <h2 class="mb-4 text-center text-danger">
+            No iesācēja līdz Python izstrādātājam 5 mēnešos
+          </h2>
+          <p class="lead text-center mb-5">
+            Praktisks kurss, kas sagatavos tevi darbam kā Python izstrādātājs
+            Latvijas un starptautiskajos tirgos. Iespējama prakse Baltijas
+            lielākajā IT kompānijā - Accenture.
+          </p>
 
-        <div class="info">
-          <ul>
-            <li><strong>Kursa ilgums:</strong> 20 nedēļas (80 akadēmiskās stundas)</li>
-            <li><strong>Klase:</strong> 2 reizes nedēļā (vakariem 18:00-21:00)</li>
-            <li><strong>Grupas lielums:</strong> Maksimums 12 dalībnieki</li>
-            <li><strong>Cena:</strong> <span class="price">950€</span> (vai 3 maksājumi pa 350€)</li>
-          </ul>
-          <a href="#pieteikties" class="cta">Pieteikties kursam</a>
-        </div>
-      </section>
+          <div
+            class="info d-flex flex-column flex-md-row align-items-center justify-content-between gap-4 p-4 bg-light rounded shadow-sm"
+          >
+            <ul class="mb-0 list-unstyled">
+              <li class="mb-2">
+                <strong>Kursa ilgums:</strong> 20 nedēļas (80 akadēmiskās
+                stundas)
+              </li>
+              <li class="mb-2">
+                <strong>Klase:</strong> 2 reizes nedēļā (vakariem 18:00-21:00)
+              </li>
+              <li class="mb-2">
+                <strong>Grupas lielums:</strong> Maksimums 12 dalībnieki
+              </li>
+              <li class="mb-2">
+                <strong>Cena:</strong>
+                <span class="price fw-bold text-danger">950€</span> (vai 3
+                maksājumi pa 350€)
+              </li>
+            </ul>
 
-      <section class="course-content">
-        <h2>Ko tu iemācīsies?</h2>
-
-        <div class="modules">
-          <h3>1. Python Pamati</h3>
-          <ul>
-            <li>Datu tipi un mainīgie</li>
-            <li>Virknes un sarakstu apstrāde</li>
-            <li>Funkcijas un moduļi</li>
-          </ul>
-
-          <h3>2. Datu Analīze</h3>
-          <ul>
-            <li>Pandas bibliotēka</li>
-            <li>Datu vizualizācija ar Matplotlib</li>
-            <li>Datu tīrīšana un transformācija</li>
-          </ul>
-
-          <h3>3. Web Izstrāde ar Django</h3>
-          <ul>
-            <li>MVC arhitektūra</li>
-            <li>Datu bāzes un ORM</li>
-            <li>Lietotāju autentifikācija</li>
-          </ul>
-
-          <h3>4. Automatizācija un Scraping</h3>
-          <ul>
-            <li>Datu iegūšana no tīmekļa</li>
-            <li>Botu izstrāde</li>
-            <li>API izmantošana</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="benefits">
-        <h2>Kāpēc izvēlēties mūsu Python kursu?</h2>
-        <ul>
-          <li><strong>Reāli projekti</strong> - Strādāsi pie 4 pilnvērtīgiem projektiem portfolio</li>
-          <li><strong>Mentoru atbalsts</strong> - Konsultācijas pēc kursa noslēguma</li>
-          <li><strong>Karjeras konsultācijas</strong> - Palīdzēsim sagatavot CV un portfolio</li>
-          <li><strong>Darba iespējas</strong> - Prakse pēc nobeiguma ar vadošo IT uzņēmumu Latvijā - Accenture</li>
-        </ul>
-      </section>
-
-      <section>
-        <section class="instructor">
-          <h2>Kursa vadītājs</h2>
-          <div class="teacher">
-            <img
-              src="https://images.pexels.com/photos/1181312/pexels-photo-1181312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Delfīna Busigina - Python prgrammēšānas pasniedzējs" style="width: 30%; height: 30%;">
-
-            <h3>Delfīna Busigina</h3>
-            <p class="role">Senior Python developer</p>
-            <p>Vairāk nekā 8 gadu pieredze Python programmēšanā. Viena no Riga TechGirls mentorēm. Profesore Latvijas
-              Universitātē.</p>
+            <a href="#pieteikties" class="btn btn-danger btn-lg px-4">
+              Pieteikties kursam
+            </a>
           </div>
         </section>
 
-        <section class="review">
-          <h2>Ko saka mūsu studenti?</h2>
-          <blockquote>
-            <p>"Pēc Python kursa Kodiņš es izgāju cauri praksei Accenture uzņēmumā, kas deva man labu startu karjeras
-              izaugsmei. Delfīna ir izcils
-              pasniedzējs, kas zina, kā skaidri izklāstīt sarežģītas tēmas."</p>
-            <footer>- Jānis, Data Analyst @ Accenture</footer>
-          </blockquote>
+        <section class="course-content container my-5">
+          <div class="card bg-light p-4 shadow-sm">
+            <h2 class="mb-4 text-center text-danger">Ko tu iemācīsies?</h2>
+            <div class="modules">
+              <h3 class="mt-4">1. Python Pamati</h3>
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">Datu tipi un mainīgie</li>
+                <li class="list-group-item">Virknes un sarakstu apstrāde</li>
+                <li class="list-group-item">Funkcijas un moduļi</li>
+              </ul>
+
+              <h3 class="mt-4">2. Datu Analīze</h3>
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">Pandas bibliotēka</li>
+                <li class="list-group-item">
+                  Datu vizualizācija ar Matplotlib
+                </li>
+                <li class="list-group-item">Datu tīrīšana un transformācija</li>
+              </ul>
+
+              <h3 class="mt-4">3. Web Izstrāde ar Django</h3>
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">MVC arhitektūra</li>
+                <li class="list-group-item">Datu bāzes un ORM</li>
+                <li class="list-group-item">Lietotāju autentifikācija</li>
+              </ul>
+
+              <h3 class="mt-4">4. Automatizācija un Scraping</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Datu iegūšana no tīmekļa</li>
+                <li class="list-group-item">Botu izstrāde</li>
+                <li class="list-group-item">API izmantošana</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
-        <section id="pieteikties" class="enrollment">
-          <h2>Pieteikšanās formā</h2>
-          <form>
-            <label for="vards">Vārds*</label>
-            <input type="text" id="vards" required>
-
-            <label for="epasts">E-pasts*</label>
-            <input type="email" id="epasts" required>
-
-            <label for="talrunis">Telefons</label>
-            <input type="tel" id="talrunis">
-
-            <label for="pieredze">Programmēšanas pieredze</label>
-            <select id="pieredze">
-              <option value="0">Nav pieredzes</option>
-              <option value="1">Pamatlīmenis</option>
-              <option value="2">Vidēja līmenis</option>
-            </select>
-
-            <label>
-              <input type="checkbox" required>
-              Piekrītu <a href="/privātuma-politika">privātuma politikai</a>
-            </label>
-
-            <button type="submit">Nosūtīt pieteikumu</button>
-
-            <p class="small-note">Nākamās grupas sākums: 2025. gada 25. jūnijs</p>
-
-          </form>
+        <section class="benefits container my-5">
+          <div class="card bg-light p-4 shadow-sm">
+            <h2 class="mb-4 text-center text-danger">
+              Kāpēc izvēlēties mūsu Python kursu?
+            </h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Reāli projekti</strong> - Strādāsi pie 4 pilnvērtīgiem
+                projektiem portfolio
+              </li>
+              <li class="list-group-item">
+                <strong>Mentoru atbalsts</strong> - Konsultācijas pēc kursa
+                noslēguma
+              </li>
+              <li class="list-group-item">
+                <strong>Karjeras konsultācijas</strong> - Palīdzēsim sagatavot
+                CV un portfolio
+              </li>
+              <li class="list-group-item">
+                <strong>Darba iespējas</strong> - Prakse pēc nobeiguma ar vadošo
+                IT uzņēmumu Latvijā - Accenture
+              </li>
+            </ul>
+          </div>
         </section>
-    </article>
 
-  </main>
+        <section class="instructor container my-5">
+          <h2 class="text-center mb-4 text-danger">Kursa vadītājs</h2>
+          <div
+            class="card bg-dark text-white shadow-sm mx-auto"
+            style="max-width: 540px"
+          >
+            <img
+              src="https://images.pexels.com/photos/1181312/pexels-photo-1181312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Delfīna Busigina - Python programmēšanas pasniedzējs"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h3 class="card-title text-danger">Delfīna Busigina</h3>
+              <p class="role fst-italic mb-2">Senior Python developer</p>
+              <p>
+                Vairāk nekā 8 gadu pieredze Python programmēšanā. Viena no Riga
+                TechGirls mentorēm. Profesore Latvijas Universitātē.
+              </p>
+            </div>
+          </div>
+        </section>
 
-  <footer>
-    <div class="footer-content" style="background-color: crimson; color: white; padding: 25px;">
-      <div class="contact-info">
-        <h3>Kodiņš</h3>
-        <address>
-          <p>Raiņā Bulvāris 13, Rīga</p>
-          <p>+371 22222222</p>
-          <p>info@kodins.lv</p>
-        </address>
+        <section class="review container my-5">
+          <div class="card bg-light p-4 shadow-sm">
+            <h2 class="mb-4 text-center text-danger">Ko saka mūsu studenti?</h2>
+            <blockquote class="p-3 bg-white rounded shadow-sm">
+              <p class="mb-2">
+                "Pēc Python kursa Kodiņš es izgāju cauri praksei Accenture
+                uzņēmumā, kas deva man labu startu karjeras izaugsmei. Delfīna
+                ir izcils pasniedzējs, kas zina, kā skaidri izklāstīt sarežģītas
+                tēmas."
+              </p>
+              <div class="fw-bold text-secondary mb-1">Novērtējums: 5 / 5</div>
+              <footer class="text-end fst-italic">
+                - Jānis, Data Analyst @ Accenture
+              </footer>
+            </blockquote>
+          </div>
+        </section>
+
+        <section id="pieteikties" class="enrollment mb-5">
+          <div class="container">
+            <h2 class="mb-4 text-center">Pieteikšanās formā</h2>
+            <form>
+              <div class="mb-3">
+                <label for="vards" class="form-label fw-bold">Vārds*</label>
+                <input type="text" id="vards" class="form-control" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="epasts" class="form-label fw-bold">E-pasts*</label>
+                <input type="email" id="epasts" class="form-control" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="talrunis" class="form-label fw-bold"
+                  >Telefons</label
+                >
+                <input type="tel" id="talrunis" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label for="pieredze" class="form-label fw-bold"
+                  >Programmēšanas pieredze</label
+                >
+                <select id="pieredze" class="form-select">
+                  <option value="0">Nav pieredzes</option>
+                  <option value="1">Pamatlīmenis</option>
+                  <option value="2">Vidēja līmenis</option>
+                </select>
+              </div>
+
+              <div class="form-check mb-3">
+                <input
+                  type="checkbox"
+                  id="privatums"
+                  class="form-check-input"
+                  required
+                />
+                <label for="privatums" class="form-check-label">
+                  Piekrītu <a href="/privātuma-politika">privātuma politikai</a>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-danger w-100">
+                Nosūtīt pieteikumu
+              </button>
+            </form>
+
+            <p class="small-note text-center mt-3 text-muted">
+              Nākamās grupas sākums: 2025. gada 25. jūnijs
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="text-light py-4" style="background-color: #0e0f10">
+      <div class="container text-center">
+        <div class="contact-info mb-3">
+          <h3>Kodiņš</h3>
+          <address class="mb-0">
+            <p class="mb-1">Raiņā Bulvāris 13, Rīga</p>
+            <p class="mb-1">+371 29760893</p>
+            <p class="mb-0">info@kodins.lv</p>
+          </address>
+        </div>
+
+        <div class="social-links mb-3">
+          <a
+            href="https://www.facebook.com/latvijasuniversitate/?locale=ru_RU"
+            class="text-light mx-2"
+            >Facebook</a
+          >
+          <a
+            href="https://lv.linkedin.com/company/university-of-latvia"
+            class="text-light mx-2"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/universitate/"
+            class="text-light mx-2"
+            >Instagram</a
+          >
+        </div>
+
+        <p class="mb-0">&copy; 2025 Kodiņš. Visas tiesības aizsargātas.</p>
       </div>
-      <div class="social-links">
-        <a href="#" style="color: white;">Facebook</a>
-        <a href="#" style="color: white;">LinkedIn</a>
-        <a href="#" style="color: white;"> Instagram</a>
-      </div>
-    </div>
-    <p class="copyright">&copy; 2025 Kodins. Visas tiesības aizsargātas.</p>
-  </footer>
-</body>
-
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

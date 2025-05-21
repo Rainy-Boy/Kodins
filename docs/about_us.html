@@ -1,93 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Par mums</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Daži metadatu tagi
-   <meta name="description" content="Programmēšanas skolas pasniedzēju lapa. Šajā lapā tiek aprakstīta pasniedzēju profesionālā biogrāfija un prasmju (skills) saraksts."
-   <meta name="keywords" content="Pasniedzējs, C++, Python, testēšana, Riga TechGirls, Tietoevry, Google, LU, RTU"
-    -->
-  <title>Par mums</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="index.html">Kodiņš</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="index.html#kursi">Kursi</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="lectors.html">Mūsu lektori</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="about_us.html">Par mums</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="news.html">Jaunumi</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="contacts.html">Kontakti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <div class="row justify-content-md-center">
-    <div class="col bg-danger bg-gradient text-light">
-      <h1 class="text-center my-5 fw-semibold">Par mums</h1>
+    <div class="container my-5">
+      <div
+        class="bg-danger bg-gradient text-light rounded-4 shadow p-5 text-center"
+      >
+        <h1 class="fw-semibold mb-0">Par mums</h1>
+      </div>
     </div>
-  </div>
 
-  <main class="container mt-5">
-    <article class="team-member">
-      <img src="https://images.pexels.com/photos/2036656/pexels-photo-2036656.jpeg"
-        alt="Reinis Ričards Ramis - C++ prgrammēšānas pasniedzējs" style="width: 50%; height: 50%;">
+    <main class="container mt-5">
+      <section class="mb-5 p-4 bg-light rounded shadow-sm company-section">
+        <div class="row align-items-center">
+          <div class="col-md-5 mb-4 mb-md-0">
+            <img
+              src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+              alt="Kodiņš kompānijas ilustrācija"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-md-7">
+            <h2 class="text-danger fw-bold mb-4">
+              Kodiņš - kompānija, kurai var uzticēties
+            </h2>
+            <p class="fs-5 fw-medium text-dark lh-lg">
+              Mēs, Latvijas Universitātes studenti, esam izveidojuši mūsu
+              kompāniju "Kodiņš" ar vienu mērķi - padarīt IT izglītību pieejamu,
+              praktisku un orientētu uz darba tirgu. Mūsu pieeja balstās uz
+              uzticamību, caurspīdīgumu un vēlmi redzēt mūsu studentus kā
+              nākotnes zvaigznes.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <h3>Reinis Ričards Ramis</h3>
-      <p class="role">Senior C++ developer</p>
-      <p>Vairāk nekā 12 gadu pieredze C++ programmēšanā. Bijušais Google darbinieks. Strādāja lielajos ASV
-        uzņēmumos.</p>
-      <ul class="Skills">
-        <li>C++</li>
-        <li>Object Oriented Programming</li>
-        <li>Game Development/GameDev</li>
-      </ul>
+      <section class="mb-5 p-4 bg-light rounded shadow-sm">
+        <h2 class="text-danger fw-bold mb-4">Mūsu mērķis un vīzija</h2>
+        <p class="fs-5 fw-medium text-dark lh-lg">
+          Mēs ticam, ka ikviens var iemācīties programmēt - neatkarīgi no
+          vecuma, pieredzes vai iepriekšējās izglītības. Mūsu vīzija ir kļūt par
+          vadošo tehnoloģiju izglītības platformu Latvijā, kas piedāvā
+          praktiskas, darba tirgum atbilstošas prasmes.
+        </p>
+      </section>
 
-      <p>Saite uz mūsu sociālo mediju: [link here please]</p>
-    </article>
+      <section class="mb-5 p-4 bg-light rounded shadow-sm">
+        <h2 class="text-danger fw-bold mb-4">Mūsu vērtības</h2>
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center gap-4"
+        >
+          <div
+            class="bg-white rounded-circle shadow-sm d-flex flex-column align-items-center justify-content-center p-4"
+            style="width: 140px; height: 140px"
+          >
+            <i class="bi bi-lightning-charge-fill text-danger fs-1 mb-3"></i>
+            <h5 class="fw-semibold">Inovacijas</h5>
+          </div>
 
-    <article class="team-member">
-      <img
-        src="https://images.pexels.com/photos/1181312/pexels-photo-1181312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt="Delfīna Busigina - Python prgrammēšānas pasniedzējs" style="width: 50%; height: 50%;">
+          <div
+            class="bg-white rounded-circle shadow-sm d-flex flex-column align-items-center justify-content-center p-4"
+            style="width: 140px; height: 140px"
+          >
+            <i class="bi bi-eye-fill text-danger fs-1 mb-3"></i>
+            <h5 class="fw-semibold">Skaidrība</h5>
+          </div>
 
-      <h3>Delfīna Busigina</h3>
-      <p class="role">Senior Python developer</p>
-      <p>Vairāk nekā 8 gadu pieredze Python programmēšanā. Viena no Riga TechGirls mentorēm. Profesore Latvijas
-        Universitātē.</p>
-      <ul class="Skills">
-        <li>Python</li>
-        <li>Teaching</li>
-        <li>Mentoring</li>
-      </ul>
-    </article>
+          <div
+            class="bg-white rounded-circle shadow-sm d-flex flex-column align-items-center justify-content-center p-4"
+            style="width: 140px; height: 140px"
+          >
+            <i class="bi bi-people-fill text-danger fs-1 mb-3"></i>
+            <h5 class="fw-semibold">Atbalsts</h5>
+          </div>
+        </div>
+      </section>
 
-    <article class="team-member">
-      <img
-        src="https://images.pexels.com/photos/6195663/pexels-photo-6195663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt="Aleksandra Dmitruka - Programmēšanas kursu dibinātāja" style="width: 50%; height: 50%;">
+      <section class="mb-5 p-4 bg-light rounded shadow-sm">
+        <h2 class="text-danger fw-bold mb-4">Pieredze dažādās nozarēs</h2>
+        <p class="fs-5 fw-medium text-dark lh-lg">
+          Mūsu komanda sastāv no pieredzējušiem IT profesionāļiem, dizaineriem,
+          finansistiem. Mēs esam strādājuši gan ar startupiem, gan ar lieliem
+          uzņēmumiem kā Accenture un Latvijas Universitāte. Šī daudzveidīgā
+          pieredze ļauj mums pielāgot mācību saturu reālajām vajadzībām.
+        </p>
+      </section>
 
-      <h3>Aleksandra Dimitruka</h3>
-      <p class="role">Programmēšanas kursu dibinātāja</p>
-      <p>Vairāk nekā 6 gadu pieredze biznesa vadībā un pasniegšānā. Bijušā Rīgas Tehniskās Universitātes profesore.
-        Pasniedza vairākās Eiropas valstīts, tādās kā Zviedrija, Vāciju un Itālija.</p>
-      <ul class="Skills">
-        <li>Biznesa vadība</li>
-        <li>Projekta vadība</li>
-        <li>Pasniegšanas prasmes</li>
-      </ul>
-    </article>
+      <section class="mb-5 p-4 bg-light rounded shadow-sm">
+        <h2 class="text-danger fw-bold mb-4">Mūsu pakalpojumi</h2>
+        <ul class="list-group list-group-flush fs-5 fw-medium text-dark lh-lg">
+          <li class="list-group-item border-0 ps-0">
+            Intensīvi programmēšanas kursi iesācējiem
+          </li>
+          <li class="list-group-item border-0 ps-0">
+            Mentoru atbalsts un karjeras konsultācijas
+          </li>
+          <li class="list-group-item border-0 ps-0">
+            Projekti sadarbībā ar industrijas partneriem
+          </li>
+          <li class="list-group-item border-0 ps-0">
+            Lekcijas un praktiskie darbi klātienē vai attālināti
+          </li>
+        </ul>
+      </section>
+    </main>
 
-    <article class="team-member">
-      <img
-        src="https://images.pexels.com/photos/12903271/pexels-photo-12903271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt="Emīls Lībeks - testēšanas prgrammēšānas pasniedzējs" style="width: 50%; height: 50%;">
+    <footer class="text-light py-4" style="background-color: #0e0f10">
+      <div class="container text-center">
+        <div class="contact-info mb-3">
+          <h3>Kodiņš</h3>
+          <address class="mb-0">
+            <p class="mb-1">Raiņā Bulvāris 13, Rīga</p>
+            <p class="mb-1">+371 29760893</p>
+            <p class="mb-0">info@kodins.lv</p>
+          </address>
+        </div>
 
-      <h3>Emīls Lībeks</h3>
-      <p class="role">Senior testēšanas speciālists</p>
-      <p>Vairāk nekā 15 gadu pieredze testēšanas nozarē. Tietoevry Baltics darbinieks. Vadīja testēšanas seminārus
-        Kanādā un Austrālijā.</p>
-      <ul class="Skills">
-        <li>Testēšana</li>
-        <li>CI/CD Pipeline</li>
-        <li>DevOps</li>
-      </ul>
-    </article>
+        <div class="social-links mb-3">
+          <a
+            href="https://www.facebook.com/latvijasuniversitate/?locale=ru_RU"
+            class="text-light mx-2"
+            >Facebook</a
+          >
+          <a
+            href="https://lv.linkedin.com/company/university-of-latvia"
+            class="text-light mx-2"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/universitate/"
+            class="text-light mx-2"
+            >Instagram</a
+          >
+        </div>
 
-    <a href="index.html">Atpakaļ uz sākumu</a>
-  </main>
-</body>
-
+        <p class="mb-0">&copy; 2025 Kodiņš. Visas tiesības aizsargātas.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
