@@ -13,6 +13,81 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Kodiņš",
+            "url": "https://rainy-boy.github.io/IMT_3_And_4/index.html",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Raiņā Bulvāris 13",
+              "addressLocality": "Rīga",
+              "addressCountry": "LV"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.33",
+              "bestRating": "5",
+              "ratingCount": "3"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Mārtiņš"
+            },
+            "reviewBody": "Pēc Kodiņš C++ kursa sāku strādāt kā Junior Developer ar 1600€ algu. Lektori sniedza nepieciešamo gan tehnisko, gan karjeras konsultāciju.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "4.5",
+              "bestRating": "5"
+            },
+            "itemReviewed": {
+              "@type": "EducationalOrganization",
+              "name": "Kodiņš"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Anna"
+            },
+            "reviewBody": "Python kurss bija lielisks, daudz praktisku uzdevumu.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "itemReviewed": {
+              "@type": "EducationalOrganization",
+              "name": "Kodiņš"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Jānis"
+            },
+            "reviewBody": "Testēšanas kurss ļoti palīdzēja saprast kvalitātes nodrošināšanas pamatprincipus IT.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "3.5",
+              "bestRating": "5"
+            },
+            "itemReviewed": {
+              "@type": "EducationalOrganization",
+              "name": "Kodiņš"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>
@@ -88,7 +163,7 @@
                 href="cpp_course.html"
                 class="text-white text-decoration-none d-block p-4 bg-dark rounded shadow h-100"
               >
-                <h4>C++ kurss</h4>
+                <h4>C++ programmēšana</h4>
                 <p>
                   - iemācīsim programmēt C++ programmēšanas valodā tikai 9
                   mēnešu laikā.
@@ -114,7 +189,7 @@
                 href="testing_course.html"
                 class="text-white text-decoration-none d-block p-4 bg-dark rounded shadow h-100"
               >
-                <h4>Testēšanas kurss</h4>
+                <h4>Testēšanas apmācības</h4>
                 <p>- iemācīsim testēt savas programmas tikai 2 dienu laikā.</p>
               </a>
             </div>
