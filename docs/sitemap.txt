@@ -1,4 +1,4 @@
-https://rainy-boy.github.io/Kodins/index.html
+https://rainy-boy.github.io/Kodins/
 https://rainy-boy.github.io/Kodins/cpp_course.html
 https://rainy-boy.github.io/Kodins/python_course.html
 https://rainy-boy.github.io/Kodins/testing_course.html
