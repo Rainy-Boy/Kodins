@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodiņš | BUJ</title>
+
+    <link
+      rel="canonical"
+      href="https://rainy-boy.github.io/Kodins/faq_page.html"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kas ir Kodiņš?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kodiņš ir programmēšanas skola, kas piedāvā praktiskus un modernus IT kursus bērniem, jauniešiem un pieaugušajiem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kādi kursi ir pieejami?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Šobrīd ir pieejami 3 kursi: C++ programmēšana, Python kurss un testēšanas apmācības."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vai nepieciešamas priekšzināšanas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Viss ir atkarīgs no konkrēta kursa, tomēr pārsvarā mūsu kursi ir piemēroti iesācējiem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vai būs arī citi kursi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mēs aktīvi strādājam, lai izveidotu pēc iespējas vairāk jaunu kursu. Šobrīd plānojam izveidot MI programmēšanas kursu septembrī."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kā var pieteikties kursiem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jūs varat pieteikties kursiem mūsu mājaslapā, aizpildot pieteikuma formu vai sazinoties ar mums pa e-pastu."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kur atrodas Kodiņš?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pamatā mēs atrodamies Rīgā, Raiņa bulvārī 13, Latvijas Universitātes telpās."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vai tiek izsniegts sertifikāts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jā, pēc kursa pabeigšanas dalībnieki saņem oficiālu apliecinājumu par apgūto materiālu."
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="index.html">Kodiņš</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="index.html#kursi">Kursi</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="lectors.html">Mūsu lektori</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="about_us.html">Par mums</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="news.html">Jaunumi</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="faq_page.html">BUJ</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link fs-5" href="contacts.html">Kontakti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container my-5">
+      <div
+        class="bg-danger bg-gradient text-light rounded-4 shadow p-5 text-center"
+      >
+        <h1 class="fw-semibold mb-0">Biežāk uzdotie jautājumi</h1>
+      </div>
+    </div>
+
+    <main class="container mt-5">
+      <section>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Kas ir Kodiņš?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Kodiņš ir programmēšanas skola, kas piedāvā praktiskus un
+                modernus IT kursus bērniem, jauniešiem un pieaugušajiem.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Kādi kursi ir pieejami?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Šobrīd ir pieejami 3 kursi: C++ programmēšana, Python kurss un
+                testēšanas apmācības.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Vai nepieciešamas priekšzināšanas?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Viss ir atkarīgs no konkrēta kursa, tomēr pārsvarā mūsu kursi ir
+                piemēroti iesācējiem.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                Vai būs arī citi kursi?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Mēs aktīvi strādājam, lai izveidotu pēc iespējas vairāk jaunu
+                kursu. Šobrīd plānojam izveidot MI programmēšanas kursu
+                septembrī.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+              >
+                Kā var pieteikties kursiem?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Jūs varat pieteikties kursiem mūsu mājaslapā, aizpildot
+                pieteikuma formu vai sazinoties ar mums pa e-pastu.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+              >
+                Kur atrodas Kodiņš?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Pamatā mēs atrodamies Rīgā, Raiņa bulvārī 13, Latvijas
+                Universitātes telpās.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item pb-4">
+            <h2 class="accordion-header" id="headingEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+              >
+                Vai tiek izsniegts sertifikāts?
+              </button>
+            </h2>
+            <div
+              id="collapseEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Jā, pēc kursa pabeigšanas dalībnieki saņem oficiālu
+                apliecinājumu par apgūto materiālu.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-light py-4" style="background-color: #0e0f10">
+      <div class="container text-center">
+        <div class="contact-info mb-3">
+          <h3>Kodiņš</h3>
+          <address class="mb-0">
+            <p class="mb-1">Raiņā Bulvāris 13, Rīga</p>
+            <p class="mb-1">+371 29760893</p>
+            <p class="mb-0">info@kodins.lv</p>
+          </address>
+        </div>
+
+        <div class="social-links mb-3">
+          <a
+            href="https://www.facebook.com/latvijasuniversitate/?locale=ru_RU"
+            class="text-light mx-2"
+            >Facebook</a
+          >
+          <a
+            href="https://lv.linkedin.com/company/university-of-latvia"
+            class="text-light mx-2"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/universitate/"
+            class="text-light mx-2"
+            >Instagram</a
+          >
+        </div>
+
+        <p class="mb-0">&copy; 2025 Kodiņš. Visas tiesības aizsargātas.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

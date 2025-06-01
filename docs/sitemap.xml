@@ -5,41 +5,46 @@
          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rainy-boy.github.io/Kodins/</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/cpp_course.html</loc>
-    <lastmod>2025-05-24</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/python_course.html</loc>
-    <lastmod>2025-05-24</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/testing_course.html</loc>
-    <lastmod>2025-05-24</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/lectors.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/about_us.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/news.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-30</lastmod>
   </url>
 
   <url>
     <loc>https://rainy-boy.github.io/Kodins/contacts.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-30</lastmod>
+  </url>
+
+    <url>
+    <loc>https://rainy-boy.github.io/Kodins/faq_page.html</loc>
+    <lastmod>2025-05-30</lastmod>
   </url>
 </urlset>
